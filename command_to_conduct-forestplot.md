@@ -1,6 +1,6 @@
 # UCL_project
-# Coding for meta-analysis on the diagnostic test accuracy
-# Forestplot basing on univariate random effect model 
+# Coding for meta-analysis on the diagnostic test accuracy 
+# Forestplot basing on univariate random effect model (subgroup)
 library(meta)
 all<-read.csv(file="NEW2021demenita.csv",encoding="UTF-8")
 source("plot_forest_sesp20211227utf8.R")
